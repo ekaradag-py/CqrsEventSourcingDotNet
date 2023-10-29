@@ -3,7 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.5.33627.172
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CqrsEventSourcingDotNet", "CqrsEventSourcingDotNet\CqrsEventSourcingDotNet.csproj", "{E481F98C-CEB4-47EF-8787-7D1B2CB50582}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CqrsEventSourcingDotNet", "CqrsEventSourcingDotNet\CqrsEventSourcingDotNet.csproj", "{E481F98C-CEB4-47EF-8787-7D1B2CB50582}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProductStockExample", "ProductStockExample\ProductStockExample.csproj", "{5F4882A7-CE99-4DA6-8D82-E4A11166A134}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DB", "DB\DB.csproj", "{43517F49-2851-4960-B279-2D42B2CEC406}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Repository", "Repository\Repository.csproj", "{4F62D14E-DECF-405F-B617-D5820EBBB8FF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Models", "Models\Models.csproj", "{D86E3719-E140-41DA-89D3-5AAD9914F62F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MultiDbConnect", "MultiDbConnect\MultiDbConnect.csproj", "{65D3F6C9-3523-4A31-8D65-99DEE09F6286}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +25,26 @@ Global
 		{E481F98C-CEB4-47EF-8787-7D1B2CB50582}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E481F98C-CEB4-47EF-8787-7D1B2CB50582}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E481F98C-CEB4-47EF-8787-7D1B2CB50582}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5F4882A7-CE99-4DA6-8D82-E4A11166A134}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5F4882A7-CE99-4DA6-8D82-E4A11166A134}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5F4882A7-CE99-4DA6-8D82-E4A11166A134}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5F4882A7-CE99-4DA6-8D82-E4A11166A134}.Release|Any CPU.Build.0 = Release|Any CPU
+		{43517F49-2851-4960-B279-2D42B2CEC406}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{43517F49-2851-4960-B279-2D42B2CEC406}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{43517F49-2851-4960-B279-2D42B2CEC406}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{43517F49-2851-4960-B279-2D42B2CEC406}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4F62D14E-DECF-405F-B617-D5820EBBB8FF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4F62D14E-DECF-405F-B617-D5820EBBB8FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4F62D14E-DECF-405F-B617-D5820EBBB8FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4F62D14E-DECF-405F-B617-D5820EBBB8FF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D86E3719-E140-41DA-89D3-5AAD9914F62F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D86E3719-E140-41DA-89D3-5AAD9914F62F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D86E3719-E140-41DA-89D3-5AAD9914F62F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D86E3719-E140-41DA-89D3-5AAD9914F62F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{65D3F6C9-3523-4A31-8D65-99DEE09F6286}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{65D3F6C9-3523-4A31-8D65-99DEE09F6286}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{65D3F6C9-3523-4A31-8D65-99DEE09F6286}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{65D3F6C9-3523-4A31-8D65-99DEE09F6286}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
